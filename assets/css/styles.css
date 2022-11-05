@@ -57,8 +57,21 @@ i{
     font-size: 2.4rem;
 }
 
+button {
+    background-color: lightcoral; 
+    border: none;
+    font-weight: bold;
+    color: black;
+    font-family: var(--body-font-family);
+    padding: 10px 24px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor:pointer;
+  }
+
 input,
-button,
 textarea{
     font: inherit;
     color: inherit;
@@ -120,9 +133,13 @@ li:hover a{
 }
 
 .main-title{
-    font-size: clamp(5rem, 10vw, 10rem);
+    font-size: 40px;
     text-align: center;
     line-height: 1.2;
+}
+
+.center {
+    text-align: center;
 }
 
 .inline-image{
