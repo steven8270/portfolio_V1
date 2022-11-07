@@ -256,7 +256,9 @@ li:hover a{
 
 .category-name {
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--body-font-family);
 }
 
 .card-category-2 ul, .card-category-3 ul, .card-category-4 ul, .card-category-5 ul  .card-category-6 ul {
@@ -300,3 +302,6 @@ li:hover a{
             border-radius: 10px 10px 10px 10px;
             height: 200px;
         }
+.poppings {
+    font-family: var(--body-font-family);
+}
